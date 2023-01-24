@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Event</title>
+    <link href="/dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.2/flowbite.min.css"  rel="stylesheet" />
+
+</head>
+<body>
+    <section class="w-full min-h-screen bg-gray-100 flex justify-center items-center">
+        <div class="py-5 flex flex-col justify-center items-center drop-shadow-lg w-11/12 lg:w-[28%]">
+            <form class="flex flex-col p-5 gap-2 bg-white ">
+                <div class="flex flex-col mb-2.5 mt-5">
+                    <p class="font-lato text-sm text-center text-gray-500">
+                        Segera Upload Bukti Transfer untuk melengkapi pendaftaran Anda, sebelum :
+                    </p>
+                    <span class="font-lato font-bold text-xl text-center text-gray-700 mt-3">
+                        2 Hari, 23 Jam : 51 Menit : 52 Detik
+                    </span>
+                </div>
+                <div class="flex flex-col mb-5 items-center justify-center">
+                    <hr class="w-2/3 lg:w-1/2 h-0.5 bg-gray-300">
+                </div>
+                <div class="flex flex-col mb-2.5">
+                    <label class="tracking-wide text-gray-700 text-sm lg:text-base font-bold font-lato mb-1">
+                        ID Enterpriser
+                    </label>
+                    <input readonly class="appearance-none block w-full bg-gray-100 text-gray-700 text-sm border border-gray-200 rounded py-2 px-3 leading-tight focus:outline-none  focus:border-gray-500" type="text" value="I0012345H">
+                </div>
+                <div class="flex flex-col mb-2.5">
+                    <label class="tracking-wide text-gray-700 text-sm lg:text-base font-bold font-lato mb-1">
+                        Nama Lengkap
+                    </label>
+                    <input readonly class="appearance-none block w-full bg-gray-100 text-gray-700 text-sm border border-gray-200 rounded py-2 px-3 leading-tight focus:outline-none focus:border-gray-500" type="text" value="Nama Lengkap">
+                </div>
+                <div class="flex flex-col mb-2.5">
+                    <label class="tracking-wide text-gray-700 text-sm lg:text-base font-bold font-lato mb-1">
+                        Jenis Event
+                    </label>
+                    <input readonly class="appearance-none block w-full bg-gray-100 text-gray-700 text-sm border border-gray-200 rounded py-2 px-3 leading-tight focus:outline-none focus:border-gray-500" type="text" value="Onsite">
+                </div>
+                <div class="flex flex-col mb-2.5">
+                    <label class="tracking-wide text-gray-700 text-sm lg:text-base font-bold font-lato mb-1">
+                        Nominal Pembayaran
+                    </label>
+                    <input readonly class="appearance-none block w-full bg-gray-100 text-gray-700 text-sm border border-gray-200 rounded py-2 px-3 leading-tight focus:outline-none focus:border-gray-500" type="text" value="Rp. 150.000">
+                </div>
+                <div class="flex flex-col mb-5 items-center justify-center">
+                    <hr class="w-2/3 lg:w-1/2 h-0.5 bg-gray-300">
+                </div>
+                <div class="flex flex-col mb-5">
+                    <p class="font-lato text-lg text-center text-gray-500">
+                        BCA. Bangun Insan Anugerah
+                    </p>
+                    <div class="flex items-center justify-center gap-3">
+                        <span class="font-lato font-bold text-xl text-center text-gray-700 mt-1 select-all">
+                            088089333 
+                        </span>
+                        <a href="" class="self-end cursor-pointer">
+                            <i class="fa-solid fa-paste text-xl text-gray-700 hover:text-gray-800"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="flex flex-col mb-5 items-center justify-center">
+                    <hr class="w-2/3 lg:w-1/2 h-0.5 bg-gray-300">
+                </div>
+
+                <!-- hidden  -->
+                <div class=" flex flex-col mb-4 justify-center items-center">
+                    <img src="./assets/img/bg-event.jpg" class="w-3/5 h-3/5 drop-shadow-lg" alt="foto transfer">
+                </div>
+
+                <div class="flex flex-col mb-2.5">
+                    <label class="tracking-wide text-gray-700 text-sm lg:text-base font-bold font-lato mb-1">
+                        Bukti Transfer
+                    </label>
+                    <input class="block w-full text-sm text-gray-700 border border-gray-300 rounded-lg cursor-pointer bg-gray-50 focus:outline-none" type="file">
+                </div>
+
+                <div class="flex flex-row justify-center items-center gap-5 mt-5 mb-2.5">
+                    <a href="registered.html" class="bg-green-600 text-gray-100 hover:bg-green-700 hover:text-gray-200 ease-in-out delay-300 px-5 py-2 rounded-md">Daftar</a>
+                </div>
+            </form>
+            <div class="flex flex-col w-11/12 p-5">
+                <h3 class="text-blue-500 font-light font-roboto text-sm tracking-wider text-center uppercase cursor-pointer">hotline billionaires</h3>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.2/flowbite.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Event</title>
+    <link href="/dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+</head>
+<body>
+    <header class="w-full h-screen bg-fixed bg-cover bg-center flex justify-center items-center"
+        style="background-image:url(assets/img/bg-event.jpg)" id="home">
+        <div class=" bg-gray-800/30 w-full h-full drop-shadow-md flex flex-col justify-center items-center gap-7">
+            <!-- 1 flyer -->
+            <img src="./assets/img/flyer.jpeg" alt="flyer event" class="animate__animated animate__fadeInUp animate__slow w-2/3 lg:w-1/4">
+            <!-- 2 flyer -->
+            <!-- <div class="flex flex-row gap-3 px-3 w-full justify-center items-center">
+                <img src="./assets/img/flyer.jpeg" alt="flyer event" class="animate__animated animate__fadeInUp w-1/2 lg:w-1/4">
+                <img src="./assets/img/flyer.jpeg" alt="flyer event" class="animate__animated animate__fadeInUp w-1/2 lg:w-1/4">
+            </div> -->
+            <div class="flex flex-row gap-5">
+                <a href="praregistration.html" class="animate__animated animate__fadeInUp animate__delay-1s uppercase px-4 py-3 bg-white hover:bg-gray-100 text-gray-700 hover:text-gray-800 ease-in-out delay-300 cursor-pointer font-bold font-lato tracking-wider rounded-md drop-shadow-md">Registrasi</a>
+                <a href="status.html" class="animate__animated animate__fadeInUp animate__delay-1s uppercase px-4 py-3 bg-white hover:bg-gray-100 text-gray-700 hover:text-gray-800 ease-in-out delay-300 cursor-pointer font-bold font-lato tracking-wider rounded-md drop-shadow-md">Cek Status</a>
+            </div>
+            <a href="#about" class="text-white text-base font-light font-lato tracking-[.50em] absolute bottom-7 right-5">
+                <i class="fa-solid fa-caret-down"></i>
+                scroll down
+            </a>
+        </div>
+    </header>
+
+    <section class="w-full h-full" >
+        <div class="w-full h-full flex flex-col items-center px-8 lg:px-32 py-20 gap-10 lg:gap-12" id="about">
+            <div class="font-bold flex flex-col justify-center items-center">
+                <span class="text-xl font-lato tracking-widest mb-3 text-gray-800">Selamat Pagi</span>
+                <h1 class="text-4xl lg:text-6xl font-lato tracking-wider text-gray-900 text-center">Enterpriser HDI</h1>
+            </div>
+            <hr class="w-2/3 lg:w-1/2 h-0.5 bg-gray-300">
+            <div class="flex flex-col justify-center items-center px-0 lg:px-18 gap-10 w-full lg:w-3/4">
+                <p class="text-lg lg:text-2xl font-medium font-roboto text-justify indent-8 lg:indent-14 text-gray-700">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non aut dolore doloribus consequatur. Laborum eos odit laboriosam. Dolore voluptate velit earum ad ullam aut quod rem eum nemo consectetur. Voluptatum?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non aut dolore doloribus consequatur. Laborum eos odit laboriosam. Dolore voluptate velit earum ad ullam aut quod rem eum nemo consectetur. Voluptatum?
+                </p>
+                <p class="text-lg lg:text-2xl font-medium font-roboto text-justify indent-8 lg:indent-14 text-gray-700">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non aut dolore doloribus consequatur. Laborum eos odit laboriosam. Dolore voluptate velit earum ad ullam aut quod rem eum nemo consectetur. Voluptatum?
+                </p>
+            </div>
+        </div>
+
+        <div class="w-full h-full flex flex-col items-center bg-gray-100 px-8 lg:px-32 py-20 gap-10 lg:gap-12">
+            <div class="font-bold font-lato text-gray-900 text-4xl lg:text-5xl flex flex-col justify-center items-center">
+                Detail Event
+            </div>
+            <hr class="w-2/3 lg:w-1/2 h-0.5 bg-gray-300">
+            <div class="flex flex-row flex-wrap justify-center gap-10 lg:gap-14">
+                <div class="flex flex-col gap-3 w-full lg:w-2/5 bg-white drop-shadow-xl rounded-lg p-5">
+                    <div class="flex items-center gap-5 p-3">
+                        <i class="fa-solid fa-calendar-days text-5xl lg:text-6xl text-gray-800"></i>
+                        <span class="font-bold font-roboto text-2xl lg:text-3xl text-gray-800">Jadwal</span>
+                    </div>
+                    <div class="flex flex-col gap-2 mt-1 p-3">
+                        <span class="font-bold font-roboto text-lg lg:text-xl text-gray-700">Billionaires Star Gathering</span>
+                        <p class="font-medium font-roboto text-base lg:text-lg text-gray-500">Minggu, 18-19 Feberuari, pukul 13.00 & 19.00</p>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-3 w-full lg:w-2/5 bg-white drop-shadow-xl rounded-lg p-5">
+                    <div class="flex items-center gap-5 p-3">
+                        <i class="fa-solid fa-tv text-5xl lg:text-6xl text-gray-800"></i>
+                        <span class="font-bold font-roboto text-2xl lg:text-3xl text-gray-800">Online</span>
+                    </div>
+                    <div class="flex flex-col gap-2 mt-1 p-3">
+                        <span class="font-bold font-roboto text-lg lg:text-xl text-gray-700">Live Via ZOOM MEETING</span>
+                        <p class="font-medium font-roboto text-base lg:text-lg text-gray-500 mb-7">(Kapasitas : 1000 Orang)</p>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-3 w-full lg:w-2/5 bg-white drop-shadow-xl rounded-lg p-5">
+                    <div class="flex items-center gap-5 p-3">
+                        <i class="fa-solid fa-ticket text-5xl lg:text-6xl text-gray-800"></i>
+                        <span class="font-bold font-roboto text-2xl lg:text-3xl text-gray-800">Voucher</span>
+                    </div>
+                    <div class="flex flex-col gap-2 mt-1 p-3">
+                        <span class="font-bold font-roboto text-lg lg:text-xl text-gray-700">Free Product Billionaires</span>
+                        <p class="font-medium font-roboto text-base lg:text-lg text-gray-500 mb-7">Sampai Puluhan Juta</p>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-3 w-full lg:w-2/5 bg-white drop-shadow-xl rounded-lg p-5">
+                    <div class="flex items-center gap-5 p-3">
+                        <i class="fa-solid fa-map text-5xl lg:text-6xl text-gray-800"></i>
+                        <span class="font-bold font-roboto text-2xl lg:text-3xl text-gray-800">Onsite</span>
+                    </div>
+                    <div class="flex flex-col gap-2 mt-1 p-3">
+                        <span class="font-bold font-roboto text-lg lg:text-xl text-gray-700">Live at Brand Center Surabaya</span>
+                        <p class="font-medium font-roboto text-base lg:text-lg text-gray-500 mb-7">Jl Ngagel Madya No 17-21</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-full h-full flex flex-col justify-center items-center px-8 lg:px-32 py-20 gap-10 lg:gap-12">
+            <div class="font-bold font-lato text-gray-900 text-4xl lg:text-5xl flex flex-col justify-center items-center">
+                Hubungi Kami
+            </div>
+            <hr class="w-2/3 lg:w-1/2 h-0.5 bg-gray-300 self-center">
+            <div class="flex flex-col lg:flex-row gap-5 w-full lg:w-3/4 justify-center">
+                <form class="flex flex-col px-4 lg:px-8 pt-3 lg:pt-6 pb-8 w-full lg:w-2/3">
+                    <div class="flex flex-col mb-4">
+                        <label class=" tracking-wide text-gray-700 text-lg font-bold mb-2">
+                            Nama Lengkap
+                        </label>
+                        <input class="appearance-none block w-full bg-gray-100 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" type="text" placeholder="Nama Lengkap">
+                    </div>
+                    <div class="flex flex-col mb-4">
+                        <label class=" tracking-wide text-gray-700 text-lg font-bold mb-2">
+                            Email
+                        </label>
+                        <input class="appearance-none block w-full bg-gray-100 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" type="text" placeholder="Email">
+                    </div>
+                    <div class="flex flex-col mb-4">
+                        <label class=" tracking-wide text-gray-700 text-lg font-bold mb-2">
+                            Pesan
+                        </label>
+                        <textarea rows="5" class="appearance-none block w-full bg-gray-100 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"></textarea>
+                    </div>
+                    <div class="flex flex-col w-full lg:w-fit">
+                        <button class="bg-gray-700 text-gray-100 hover:bg-gray-800 hover:text-gray-200 ease-in-out delay-300 px-5 py-2 rounded-sm">Kirim</button>
+                    </div>
+                </form>
+                <div class="hidden lg:block w-0.5 h-11/12 bg-gray-300"></div>
+                <div class="block lg:hidden w-11/12 h-0.5 bg-gray-300 self-center"></div>
+                <div class="flex flex-col px-5 pt-3 pb-8 justify-evenly">
+                    <h1 class="font-lato font-bold text-xl lg:text-2xl text-gray-700 mb-5 tracking-wide">Sosial Media</h1>
+                    <a href="#" class="flex items-center gap-3 mb-5 cursor-pointer text-gray-800 hover:text-blue-600 ease-in-out delay-300">
+                        <i class="fa-brands fa-facebook text-2xl lg:text-3xl"></i>
+                        <span class="text-lg lg:text-xl font-roboto font-medium">Facebook</span>
+                    </a>
+                    <a href="#" class="flex items-center gap-3 mb-5 cursor-pointer text-gray-800 hover:text-red-600 ease-in-out delay-300">
+                        <i class="fa-brands fa-youtube text-2xl lg:text-3xl"></i>
+                        <span class="text-lg lg:text-xl font-roboto font-medium">Youtube</span>
+                    </a>
+                    <a href="#" class="flex items-center gap-3 mb-5 cursor-pointer text-gray-800 hover:text-pink-600 ease-in-out delay-300">
+                        <i class="fa-brands fa-instagram text-2xl lg:text-3xl"></i>
+                        <span class="text-lg lg:text-xl font-roboto font-medium">Instagram</span>
+                    </a>
+                    <a href="#" class="flex items-center gap-3 mb-5 cursor-pointer text-gray-800 hover:text-green-600 ease-in-out delay-300">
+                        <i class="fa-brands fa-whatsapp text-2xl lg:text-3xl"></i>
+                        <span class="text-lg lg:text-xl font-roboto font-medium">Whatsapp</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="w-full bg-gray-800 px-8 lg:px-32 py-10">
+        <span class="text-gray-50 text-sm lg:text-base flex items-center justify-center font-medium font-lato tracking-widest">
+            © Copyright Marzuki 2023
+        </span>
+    </footer>
+
+    <a href="#home" id="to-top" class="fixed hidden animate__animated animate__fadeInUp bottom-4 right-4 z-[9999] justify-center items-center h-fit w-fit rounded-md bg-gray-500 text-white drop-shadow-md">
+        <div class="flex w-10 h-10 items-center justify-center">
+            <i class="fa-solid fa-caret-up text-3xl"></i>
+        </div>
+    </a>
+
+    <script src="./assets/js/script.js"></script>
+
+</body>
+</html>
